@@ -15,6 +15,8 @@ loggin=get_logger('log3')
 #读取Excel数据
 cases=Handler.Excle.read_excle("my_message")
 
+
+
 @ddt.ddt
 class MyTestCase(unittest.TestCase):
     @classmethod
